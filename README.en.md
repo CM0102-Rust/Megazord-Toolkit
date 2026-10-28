@@ -11,9 +11,9 @@
 
 ---
 
-**Megazord Toolkit** is an editor for Championship Manager 01/02 that brings together, in a single program, real-time editing of the running game and save game editing, with the scout, the regens and the fixes.
+One of the perks of rewriting the whole game's code is really understanding how it works "under the hood" (if you don't know what I'm talking about, have a look at [this thread](https://champman0102.co.uk/viewtopic.php?t=11029)).
 
-It is new code, written from scratch in Rust, with its own interface. Not a single line of third-party code was used.
+I'd like to show you a project I've been working on that grew out of that work: Megazord Toolkit. It's an editor for Championship Manager 01/02 that, as the name suggests, brings together in a single program the features of several tools the community uses: real-time editing of the running game, save editing, the scout and the regen finder.
 
 **Beta:** back up your save before using it, and report bugs [here][bugs].
 
@@ -37,12 +37,12 @@ It is new code, written from scratch in Rust, with its own interface. Not a sing
 
 ## Requirements
 
-- Windows 10 or 11, with WebView2 (built into Windows 11).
+- Windows 10 or 11. The installer includes WebView2; if you use the zip, you need it installed (Windows 11 already has it).
 - Championship Manager 01/02 **3.9.68**, unpatched or patched with NickPatcher (such as the CLZ Leagues Patch). On an executable from another version, the editor **warns you and does not open**, so it never writes to the wrong place.
 
 ## How to use
 
-1. Run `MegazordToolkit.exe`.
+1. Install with the installer (`MegazordToolkit-…-setup.exe`) and open Megazord Toolkit; or, with the zip, run `MegazordToolkit.exe`.
 2. Pick the game process (with your career loaded) or a `.sav`.
 3. Search for a person or pick a club on the side bar. Edit and save.
 
@@ -54,8 +54,6 @@ The project was born out of admiration for the tools that kept the game alive fo
 - **Michael Nygreen**: CM Scout
 - **Yuri Kitashin Jr.**: CMExplorer
 - **Dirty Andy**: GPF2 (Generated Players Finder)
-
-And to the whole CM 01/02 community. Without you, this project would not exist. Thank you.
 
 ---
 

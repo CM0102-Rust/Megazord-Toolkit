@@ -11,9 +11,9 @@
 
 ---
 
-**Megazord Toolkit** é um editor para o Championship Manager 01/02 que junta, num programa só, a edição do jogo em tempo real e a edição do save, com o olheiro, os regens e as correções.
+Uma das vantagens de estar reescrevendo todo o código do jogo é entender realmente como ele funciona "por dentro" (se não sabe do que estou falando, leia a [thread](https://champman0102.co.uk/viewtopic.php?t=11029)).
 
-É código novo, escrito do zero em Rust, com interface própria. Nenhuma linha de código de terceiros foi usada.
+Quero mostrar um projeto em que venho trabalhando e que é fruto desse trabalho: o Megazord Toolkit. É um editor para o Championship Manager 01/02 que, como o nome já sugere, junta num programa só as funções de várias ferramentas usadas pela comunidade: a edição do jogo em tempo real, a edição do save, o olheiro e a busca dos regens.
 
 **Beta:** faça backup do save antes de usar e relate os bugs [aqui][bugs].
 
@@ -37,12 +37,12 @@
 
 ## Requisitos
 
-- Windows 10 ou 11, com o WebView2 (já vem no Windows 11).
+- Windows 10 ou 11. O instalador já traz o WebView2; quem usar o zip precisa dele instalado (o Windows 11 já vem com ele).
 - Championship Manager 01/02 **3.9.68**, sem patch ou com o patch do NickPatcher (como o CLZ Leagues Patch). Num executável de outra versão, o editor **avisa e não abre**, para não gravar no lugar errado.
 
 ## Como usar
 
-1. Abra o `MegazordToolkit.exe`.
+1. Instale pelo instalador (`MegazordToolkit-…-setup.exe`) e abra o Megazord Toolkit; ou, com o zip, abra o `MegazordToolkit.exe`.
 2. Escolha o processo do jogo (com a carreira carregada) ou um `.sav`.
 3. Busque uma pessoa ou escolha um clube na barra lateral. Edite e grave.
 
@@ -54,8 +54,6 @@ O projeto nasceu da admiração pelas ferramentas que mantiveram o jogo vivo por
 - **Michael Nygreen**: CM Scout
 - **Yuri Kitashin Jr.**: CMExplorer
 - **Dirty Andy**: GPF2 (Generated Players Finder)
-
-E a toda a comunidade do CM 01/02. Sem vocês, este projeto não existiria. Obrigado.
 
 ---
 
