@@ -11,9 +11,7 @@
 
 ---
 
-One of the perks of rewriting the whole game's code is really understanding how it works "under the hood" (if you don't know what I'm talking about, have a look at [this thread](https://champman0102.co.uk/viewtopic.php?t=11029)).
-
-I'd like to show you a project I've been working on that grew out of that work: Megazord Toolkit. It's an editor for Championship Manager 01/02 that, as the name suggests, brings together in a single program the features of several tools the community uses: real-time editing of the running game, save editing, the scout and the regen finder.
+**Megazord Toolkit** is an editor for Championship Manager 01/02 that brings together in a single program the features of several tools the community uses: real-time editing of the running game, save editing, the scout and the regen finder. It grew out of the work of rewriting the game's code, which made it possible to understand how the game works under the hood (see the [forum thread](https://champman0102.co.uk/viewtopic.php?t=11029)).
 
 **Beta:** back up your save before using it, and report bugs [here][bugs].
 
